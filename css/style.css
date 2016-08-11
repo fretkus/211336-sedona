@@ -1,0 +1,91 @@
+body {
+font-family: "PT Sans", sans-serif;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+.main-navigation li {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.text-white h2 {
+  color: #ffffff;
+}
+
+.text-white p {
+  color: #ffffff;
+}
+.search-title {
+  font-size: 30px;
+  line-height: 24px;
+}
+.filter-column {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.list-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.content-title {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.sorting {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting p {
+  color: #000000;
+}
+
+.sorting li {
+  color: #cacaca;
+}
+
+span {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.text {
+  color: #333333;
+}
+
+.rating {
+  color: #666666;
+}
+.hotel-description a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
