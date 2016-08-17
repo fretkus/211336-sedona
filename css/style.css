@@ -8,10 +8,656 @@ text-transform: uppercase;
 font-weight: normal;
 }
 
-.main-navigation li {
+.main-header {
+  max-height: 56px;
+  /* Только для оформления сетки */
+  background-color: #ffffff;
+  outline: 2px solid #000000;
+}
+
+ .clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+.container {
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  /* Только для оформления сетки */
+  outline: 2px solid #071df0;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
   font-weight: bold;
 }
 
+.main-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-navigation li {
+  box-sizing: border-box;
+  width: 20%;
+  margin: 15px auto 0 auto;
+/* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.main-navigation li:first-child,
+.main-navigation li:nth-child(2),
+.main-navigation li:nth-child(3),
+.main-navigation li:nth-child(4) {
+  float: left;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.main-navigation li:last-child {
+  float: right;
+  text-align: right;
+}
+
+.main-navigation li:nth-child(3) {
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+.main-navigation li:nth-child(4) {
+  padding-left: 76px;
+}
+
+.main-navigation li:last-child {
+  padding-right: 72px;
+}
+
+.main-navigation a {
+  color: #000000;
+  text-decoration: none;
+}
+
+  /* Стили сетки главной страницы*/
+.index-content {
+  background-color: #ffffff;
+}
+
+.welcome {
+display: block;
+box-sizing: border-box;
+width: 100%;
+height: 510px;
+background: #e1eff8 url("../img/index-logo.jpg") no-repeat;
+background-size: cover;
+padding-top: 76px;
+padding-left: 370px;
+/* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.reasons-text {
+  box-sizing: border-box;
+  width: 576px;
+  margin: 58px auto 26px auto;
+  text-align: center;
+  /* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.reason-title {
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 53px;
+  /* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.reason-one {
+  float: left;
+  box-sizing: border-box;
+  padding-top: 34px;
+  background-color: #81b3d2;
+  width: 400px;
+  height: 256px;
+  text-align: center;
+}
+
+.title-white-one {
+  display: block;
+  box-sizing: border-box;
+  width: 123px;
+  margin: 19px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.number-white-one {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  margin: 20px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.text-white-one {
+  display: block;
+  box-sizing: border-box;
+  width: 282px;
+  margin: 17px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.reason-pic-one {
+  float: right;
+  box-sizing: border-box;
+  width: 800px;
+  height: 256px;
+  overflow: hidden;
+}
+
+.features {
+  font-size: 0;
+}
+
+.feature-item {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 400px;
+  height: 330px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.feature-item img {
+  display: block;
+  box-sizing: border-box;
+  margin: 59px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.title-item {
+  display: block;
+  box-sizing: border-box;
+  width: 102px;
+  margin: 28px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.text-item {
+  display: block;
+  box-sizing: border-box;
+  width: 285px;
+  margin: 21px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.reason-two {
+  float: right;
+  background-color: #81b3d2;
+  box-sizing: border-box;
+  padding-top: 34px;
+  width: 400px;
+  height: 256px;
+  text-align: center;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.title-white-two {
+  display: block;
+  box-sizing: border-box;
+  width: 151px;
+  margin: 19px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.number-white-two {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  margin: 21px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.text-white-two {
+  display: block;
+  box-sizing: border-box;
+  width: 330px;
+  margin: 17px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.reason-pic-two {
+  float: left;
+  width: 800px;
+  height: 256px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.items-color-gray {
+  font-size: 0;
+  background-color: #eeeeee;
+}
+
+.items-color-gray .reason-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  height: 256px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.title {
+  display: block;
+  box-sizing: border-box;
+  width: 117px;
+  margin: 45px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.number {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  margin: 25px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.text {
+  display: block;
+  box-sizing: border-box;
+  width: 264px;
+  margin: 20px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.search {
+  padding-top: 52px;
+  background: #ffffff;
+  /* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.search-title {
+  display: block;
+  box-sizing: border-box;
+  width: 297px;
+  margin: 2px auto 0 auto;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.search-text {
+  display: block;
+  box-sizing: border-box;
+  width: 500px;
+  margin: 31px auto 0 auto;
+  line-height: 23px;
+  text-align: center;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.search-btn {
+  display: block;
+  box-sizing: border-box;
+  width: 570px;
+  height: 85px;
+  margin: 49px auto 0 auto;
+  padding: 29px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #766357;
+}
+
+.map {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 473px;
+}
+
+.modal-form {
+  display: none;
+  box-sizing: border-box;
+  width: 567px;
+  height: 395px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-left: 55px;
+  background-color: #ffffff;
+  /* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.entry-form {
+  display: block;
+  box-sizing: border-box;
+  width: 458px;
+  height: 285px;
+}
+
+.main-footer {
+  height: 120px;
+  background-color: #ffffff;
+  /* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.hashtag {
+  float: left;
+  box-sizing: border-box;
+  width: 400px;
+  height: 120px;
+  padding-top: 31px;
+  padding-left: 132px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.hashtag a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.social {
+  float: left;
+  box-sizing: border-box;
+  width: 400px;
+  height: 120px;
+  padding-top: 36px;
+  padding-left: 124px;
+  font-size: 0;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.social a {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+  font-size: 19px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.copyright {
+  float: right;
+  width: 400px;
+  height: 120px;
+  font-size: 0;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.copyright p {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 48px;
+  margin-left: 102px;
+  margin-right: 8px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.copyright a {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-top: 41px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+  /* Стили сетки страницы отелей*/
+.hotels-filter {
+  max-height: 198px;
+  padding-top: 14px;
+  padding-bottom: 8px;
+  background: #7a9bbc url("../img/background.jpg") no-repeat center;
+  background-size: cover;
+  /* Только для оформления сетки */
+  outline: 2px solid #edb2ee;
+}
+
+.content-title {
+  box-sizing: border-box;
+  float: left;
+  width: 135px;
+  height: 85px;
+  text-align: left;
+  padding-top: 27px;
+  margin-left: 71px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.sorting-title {
+  float: left;
+  box-sizing: border-box;
+  width: 77px;
+  height: 85px;
+  padding-top: 21px;
+  margin-left: 29px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.sorting-item {
+  float: left;
+  box-sizing: border-box;
+  width: 249px;
+  height: 85px;
+  padding-top: 21px;
+  margin-left: 39px;
+  font-size: 0;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.sorting-arrow {
+  float: right;
+  box-sizing: border-box;
+  width: 36px;
+  height: 85px;
+  margin-right: 73px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.sorting-title p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-item ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sorting-item li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 80px;
+  margin-top: 14px;
+  font-size: 12px;
+  line-height: 16px;
+/* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.sorting-item a {
+  color: #cacaca;
+}
+
+.hotels {
+font-size: 0;
+}
+
+.hotel-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 151px;
+  font-size: 14px;
+  line-height: 26px;
+  border-color: #fefefe;
+  outline: 1px solid #e5e5e5;
+}
+
+.hotel-item-pic {
+  float: left;
+  box-sizing: border-box;
+  width: 207px;
+  height: 152px;
+  padding-top: 30px;
+  padding-left: 72px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.hotel-description {
+  float: left;
+  box-sizing: border-box;
+  width: 363px;
+  height: 152px;
+  margin-left: 29px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.hotel-rating {
+  float: right;
+  box-sizing: border-box;
+  width: 313px;
+  height: 152px;
+  margin-left: 288px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.hotel-description h2 {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 25px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.hotel-description a {
+  text-decoration: none;
+}
+
+.hotel-description {
+  font-size: 0;
+}
+
+.hotel-description > .text {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 94px;
+  margin-top: -5px;
+  margin-right: 23px;
+  font-size: 14px;
+  line-height: 21px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.btn-more {
+  float: left;
+  box-sizing: border-box;
+  width: 110px;
+  height: 27px;
+  padding-top: 3px;
+  margin-top: -5px;
+  background-color: #81b3d2;
+}
+
+.btn-book {
+  float: right;
+  box-sizing: border-box;
+  width: 142px;
+  height: 27px;
+  padding-top: 3px;
+  margin-top: -5px;
+  margin-left: 6px;
+  margin-right: 105px;
+  background-color: #766357;
+}
+
+.hotel-detals .btn-more,
+.hotel-detals .btn-book {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.rating-star {
+  box-sizing: border-box;
+  width: 111px;
+  height: 27px;
+  text-align: right;
+  margin-top: 25px;
+  margin-left: 130px;
+  /* Только для оформления сетки */
+  outline: 1px solid #edb2ee;
+}
+
+.rating {
+  display: block;
+  box-sizing: border-box;
+  width: 111px;
+  height: 27px;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding-top: 3px;
+  margin-top: 41px;
+  margin-left: 130px;
+}
+
+
+
+  /* Текстовые стили*/
 h1 {
   font-size: 21px;
   line-height: 26px;
@@ -21,7 +667,7 @@ h1 {
 
 h2 {
   font-size: 21px;
-  line-height: 26px;
+  line-height: 21px;
   color: #000000;
   font-weight: bold;
 }
