@@ -155,7 +155,7 @@ body {
   padding: 54px 0;
   margin: 0 0;
   width: 400px;
-  height: 256px;
+  min-height: 256px;
   background-color: #81b3d2;
   text-align: center;
 }
@@ -221,7 +221,7 @@ h2 {
   box-sizing: border-box;
   margin: 0 0;
   width: 400px;
-  height: 330px;
+  min-height: 330px;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
@@ -231,18 +231,24 @@ h2 {
   position: absolute;
   top: 59px;
   left: 162px;
+  width: 75px;
+  height: 72px;
 }
 
 .feature-item:nth-child(2) > img {
   position: absolute;
   top: 60px;
   left: 163px;
+  width: 74px;
+  height: 70px;
 }
 
 .feature-item:last-child > img {
   position: absolute;
   top: 56px;
   left: 167px;
+  width: 64px;
+  height: 76px;
 }
 
 .feature-item h2 {
@@ -273,7 +279,7 @@ h2 {
   margin: 0 0;
   background-color: #81b3d2;
   width: 400px;
-  height: 256px;
+  min-height: 256px;
 }
 
 .reason-pic-two img {
@@ -311,7 +317,7 @@ h2 {
   box-sizing: border-box;
   margin: 0 0;
   width: 400px;
-  height: 256px;
+  min-height: 256px;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
@@ -1221,7 +1227,7 @@ input[type="checkbox"] + label:disabled::before {
   vertical-align: top;
   box-sizing: border-box;
   width: 100%;
-  height: 151px;
+  min-height: 151px;
   font-size: 14px;
   line-height: 26px;
   border-bottom: 1px solid #e5e5e5;
@@ -1235,11 +1241,22 @@ input[type="checkbox"] + label:disabled::before {
   padding: 30px 0 30px 72px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hotel-item-pic img {
+  width: 135px;
+  height: 90px;
+}
+
+
 .hotel-description {
   float: left;
   box-sizing: border-box;
   width: 363px;
-  height: 151px;
+  min-height: 151px;
   margin-left: 29px;
 }
 
@@ -1247,7 +1264,7 @@ input[type="checkbox"] + label:disabled::before {
   float: right;
   box-sizing: border-box;
   width: 313px;
-  height: 151px;
+  min-height: 151px;
   margin-left: 288px;
 }
 
@@ -1256,22 +1273,25 @@ input[type="checkbox"] + label:disabled::before {
   margin: 27px 0 10px;
 }
 
-.hotel-description a {
+.hotel-title {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
   text-decoration: none;
 }
 
-.hotel-description > h2 {
+.hotel-title h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
   color: #000000;
 }
 
-.hotel-description:hover > h2 {
+.hotel-title:hover > h2 {
   color: #81b3d2;
 }
 
-.hotel-description:active > h2 {
+.hotel-title:active > h2 {
   color: #cacaca;
 }
 
@@ -1297,7 +1317,12 @@ input[type="checkbox"] + label:disabled::before {
   height: 27px;
   padding-top: 3px;
   margin-top: 2px;
+  margin-bottom: 26px;
   background: #81b3d2;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .btn-book {
@@ -1306,14 +1331,16 @@ input[type="checkbox"] + label:disabled::before {
   width: 142px;
   height: 27px;
   padding-top: 3px;
-  margin: 2px 105px 0 6px;
+  margin: 2px 105px 26px 6px;
   background: #766357;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .hotel-detals .btn-more,
 .hotel-detals .btn-book {
-  font-size: 14px;
-  line-height: 21px;
   color: #ffffff;
   text-align: center;
 }
