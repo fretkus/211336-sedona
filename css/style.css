@@ -659,20 +659,20 @@ h2 {
 }
 @keyframes emergence {
   0%   {
-    -ms-transform: translateX(-2000px);
-        transform: translateX(-2000px);
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
   }
   70%  {
-    -ms-transform: translateX(30px);
-        transform: translateX(30px);
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
   }
   90%  {
-    -ms-transform: translateX(-10px);
-        transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   100% {
-    -ms-transform: translateX(0);
-        transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -689,16 +689,16 @@ h2 {
 }
 @keyframes shake {
   0%, 100% {
-    -ms-transform: translateX(0);
-        transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   10%, 30%, 50%, 70%, 90% {
-    -ms-transform: translateX(-10px);
-        transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   20%, 40%, 60%, 80% {
-    -ms-transform: translateX(10px);
-        transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
@@ -882,7 +882,8 @@ h2 {
   width: 2px;
   height: 22px;
   background: #ffffff;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .price-control label {
